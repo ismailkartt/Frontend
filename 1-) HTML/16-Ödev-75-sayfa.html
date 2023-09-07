@@ -3,71 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ödev</title>
 </head>
 <body>
     <form action="">
         <table>
             <tr>
-                <td><label for="ad">Adı</label></td>
-                <td><input type="text" name="isim" id="ad"></td>
-                <td><label for="hb">Hobiler</label></td>
-                <td><label for="ft">Futbol</label>
-                    <input type="radio" name="Futbol" id="ft"></td>
-                <td><label for="vb">Voleybol</label>
-                    <input type="radio" name="Voleybol" id="vb"></td>
-                <td><label for="bt">Basketbol</label>
-                    <input type="radio" name="Basketbol" id="bt"></td>                   
+                <td>
+                    <table>
+                        <tr>
+                            <td><label for="ad">Adı</label></td>
+                            <td><input type="text" name="ad" id="ad"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="soyad">Soyadı</label></td>
+                            <td><input type="text" name="soyad" id="soyad"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="cinsiyet">Cinsiyet</label></td>
+                            <td>
+                                <input type="radio" name="gender" id="">
+                                <label for="">Bay</label>
+                                <input type="radio" name="gender" id="">
+                                <label for="">Bayan</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="ilçe">İlçe</label></td>
+                            <td>
+                                <select name="" id="ilçe">
+                                    <option value="" disabled selected></option>
+                                    <option value="">Rize</option>
+                                    <option value="">İstanbul</option>
+                                    <option value="">Bursa</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Eposta</label></td>
+                            <td><input type="email" name="eposta" id="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="website">Kişisel Site</label></td>
+                            <td><input type="url" name="site" id="website"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="tel">Telefon</label></td>
+                            <td><input type="tel" name="telefon" id="tel"></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>Hobiler</td>
+                            <td>
+                                <input type="checkbox" name="futbol" id="futbol">
+                                <label for="futbol">Futbol</label>
+                                <input type="checkbox" name="voleybol" id="voleybol">
+                                <label for="voleybol">Voleybol</label>
+                                <input type="checkbox" name="basketbol" id="basketbol">
+                                <label for="basketbol">Basketbol</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Profil <br> Fotoğrafı</td>
+                            <td><input type="file" name="profilfoto" id="foto"></td>
+                        </tr>
+                        <tr>
+                            <td>Doğum <br> Tarihi</td>
+                            <td><input type="date" name="dtarihi" id="dogumtarihi"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="adres">Adres</label></td>
+                            <td><textarea name="adres" id="adres" cols="20" rows="2"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><button type="submit">Kayıt ol</button></td>
+                        </tr>
+                    </table>
+                </td>
             </tr>
-            <tr>
-                <td><label for="sad">Soyadı</label></td>
-                <td><input type="text" name="soyadı" id="sad"></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><label for="">Cinsiyet</label></td>
-                <td><label for="erkek">Bay</label>
-                 <input type="radio" name="gender" id="erkek">
-
-                <label for="kadın">Bayan</label>
-                <input type="radio" name="gender" id="kadın"></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><label for="">İlçe</label></td>
-                <td><select name="district">
-                    <option value="" disabled selected></option>
-                    <option value="">Merkez</option>
-                    <option value="">Pazar</option>
-                    <option value="">Çayeli</option>
-                </select></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><label for="eposta">Eposta</label></td>
-                <td><input type="email" name="email" id="eposta"></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><label for="url">Kişisel Site</label></td>
-                <td><input type="url" name="url" id="url"></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td><label for="tel">Telefon</label></td>
-                <td><input type="tel" name="telefon" id="tel"></td>
-                <td></td>
-                <td></td>
-            </tr>
-            
         </table>
     </form>
-
-
 </body>
 </html>
