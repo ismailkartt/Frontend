@@ -1,0 +1,23 @@
+
+/* Açıklama Satırı */
+h1.baslik{
+    color: palegreen;
+}
+
+.baslik{
+    color:green;
+}
+h1{
+    color: violet;
+}
+*{
+    color: tomato ;
+}
+h1.baslik{
+    color: orange;
+}
+
+h1.baslik.renk{
+    color: brown;
+}
+

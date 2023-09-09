@@ -1,0 +1,22 @@
+*{
+    color: orange;
+}
+.highlight{
+    font-size: 1.2rem;
+    color: blue;
+   }
+.center{
+    text-align: center;
+} 
+
+h1.center{
+    background-color: darkblue;
+}
+
+#p1{
+    text-align: justify;
+}
+
+.span1{
+    color: black;
+}
