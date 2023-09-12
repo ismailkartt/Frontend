@@ -1,0 +1,13 @@
+.kutu1{
+    background-color: red;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.kutu2{
+    background-color: blue;
+    padding: 10px 5px;
+}
+em{
+    padding: 40px;
+    /*inline elementler sadece yatayda padding ve margin alırlar */
+}

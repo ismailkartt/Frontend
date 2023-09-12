@@ -1,0 +1,43 @@
+body{
+    background-image: url("../img/light-brown.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1.hood{
+    text-align: center;
+    font-size: 3rem;
+    background-color: azure;
+    margin-top: 0;
+}
+.months{
+    background-color: #c187de;
+    width: 20%;
+    padding: 5px;
+    padding-bottom: 1rem;
+    margin-left: 2rem;
+}
+.months h2{
+    background-color: azure;
+    text-align: center;
+}
+.seasons{
+    background-color: #dbde87;
+    width: 20%;
+    padding-bottom: 0.3rem;
+    margin-left: 2rem;
+}
+.seasons h2{
+    background-color: azure;
+    text-align: center;
+}
+.days{
+    background-color: #87ded2;
+    width: 20%;
+    padding-bottom: 0.3rem;
+    margin-left: 2rem;
+}
+.days h2{
+    background-color: azure;
+    text-align: center;
+}

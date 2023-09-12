@@ -1,0 +1,30 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+
+a:hover{
+    color: white;
+    background-color: chocolate;
+}
+
+nav.main-menu{
+    background-color: beige;
+    font-size: 2rem;
+}
+
+.main-menu-ul{
+    list-style-type: '🍏';
+    padding: 0;
+    list-style-position: inside;
+}
+
+.main-menu-link{
+    padding: 5px;
+}
+

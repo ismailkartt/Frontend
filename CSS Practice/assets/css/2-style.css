@@ -1,0 +1,16 @@
+.baslik{
+    color: blue;
+    text-decoration: underline;
+}
+
+.container{
+    background-color: yellow;
+    width: 25%;
+    padding: 10px;
+}
+
+.yazar{
+    color: red;
+    font-weight: bold;
+}
+

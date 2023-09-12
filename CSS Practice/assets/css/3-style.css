@@ -1,0 +1,13 @@
+.container{
+    background-color: aqua;
+    width: 50%;
+}
+span{
+    text-decoration: underline;
+    color: red;
+}
+h1,h3{
+    background-color: yellow;
+    color: red;
+    text-align: center;
+  }

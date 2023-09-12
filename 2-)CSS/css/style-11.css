@@ -1,0 +1,5 @@
+.lorem-list{
+    list-style-type: '🍏';
+    list-style-position: outside;
+    line-height: 2rem;
+}
