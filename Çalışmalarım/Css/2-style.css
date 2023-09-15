@@ -1,0 +1,98 @@
+
+body{
+
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.head{
+    text-align: center;
+    padding: 12px;
+    background-color: gray;
+}
+
+a{
+    text-decoration: none;
+}
+
+main img{
+    width: 300px;
+    height: 150px;
+}
+
+main section h2{
+    font-size: 3.5rem;
+    margin-bottom: -25px;
+    margin-top: 0;
+}
+
+main section p{
+    font-size: 2rem;
+    color: gray;
+}
+
+main section.iphone14 p{
+    color: rgb(84, 84, 84);
+}
+
+main section p.satış-tarihi{
+    font-size: 1.4rem;
+    color: rgb(193, 175, 175);
+}
+
+main section p.linkler{
+    font-size: 1.4rem;
+    margin-bottom: 70px;
+}
+
+main section p.linkler a{
+    margin-right: 30px;
+}
+
+main section.watch h2 img{
+    width: 50px;
+    height: auto;
+}
+
+main section.watch .series{
+    font-size: 1.3rem;
+    color: crimson;
+    letter-spacing: 0.4rem;
+}
+
+.head .menu .sembol{
+    margin: -100px;
+}
+
+.head .menu a{
+    color: rgb(227, 227, 227);
+    padding: 15px;
+    margin: 10px;
+}
+a
+.head .menu a:hover{
+    color: white;
+}
+
+main{
+    background-color: rgb(36, 36, 36);
+    text-align: center;
+    color: white;
+}
+
+main .iphone14{
+    background-color: white;
+    color: black;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+main section{
+    margin-bottom: 5px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+

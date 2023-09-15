@@ -1,0 +1,32 @@
+:root{
+    --color1:navy;
+    --color2:crimson;
+}
+
+table.highlights td{
+    vertical-align: top;
+    padding: 0 20px;
+}
+
+table.highlights a{
+    text-decoration: none;
+    color: var(--color1);
+}
+
+table.highlights a:hover{
+    color: var(--color2);
+}
+
+table.highlights h2{
+    color: var(--color2);
+}
+
+body img{
+    width: 300px;
+    height: 200px;
+}
+
+
+
+
+
