@@ -1,0 +1,35 @@
+:root{
+    --color1: white;
+    --color2: rgb(85, 6, 85);
+}
+
+
+
+.menu{
+    display: flex;
+    gap: 100px;
+    background-color: var(--color1);
+}
+
+.menu .login-page{
+    padding: 5px 10px;
+}
+
+
+.menu .login-page .login input.data{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.menu .login-page .login h2{
+    text-align: center;
+    padding: 30px;
+}
+
+.menu .login-page .login button{
+    
+    padding: 5px 10px;
+    margin: 100px;
+}
+

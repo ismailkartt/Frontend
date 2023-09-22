@@ -1,0 +1,81 @@
+:root{
+    --color1: #ececec;
+    --color2: #555555;
+    --color3: #efefef;
+    --color4: #cccccc;
+    --color5: #0044ef;
+}
+
+section.shopping-card{
+display: inline-block;
+}
+
+section.shopping-card table{
+    background-color: var(--color1);
+}
+
+section.shopping-card .buttons{
+    text-align: right;
+    margin-top: 20px;
+}
+
+section.shopping-card .buttons button{
+    background-color: var(--color5);
+    padding: 10px 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+section.shopping-card .buttons button:hover{
+    background-color: var(--color4);
+    color: white;
+}
+
+section.shopping-card .buttons button:first-child::before{
+    content: "\f07a";
+    font: var(--fa-font-solid);
+    margin-right: 10px;
+}
+
+section.shopping-card .buttons button:last-child::before{
+    content: "\f09d";
+    font: var(--fa-font-solid);
+    margin-right: 10px;
+}
+
+section.shopping-card table th,
+section.shopping-card table td{
+    padding: 10px 15px;
+    text-align: left;
+}
+
+section.shopping-card table th{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+section.shopping-card table tbody tr:nth-child(odd){
+    background-color: var(--color4);
+}
+
+section.shopping-card table th:nth-child(3),
+section.shopping-card table td:nth-child(3){
+    text-align: center;
+}
+
+section.shopping-card table tfoot th,
+section.shopping-card table th:nth-child(4) ~ th,
+section.shopping-card table td:nth-child(4) ~ td{
+    text-align: right;
+}
+
+section.shopping-card table tbody tr:hover{
+    background-color: var(--color5);
+    color: var(--color3);
+    cursor:pointer;
+}
+
+
+
+

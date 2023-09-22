@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Font awesome</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      .menu-item i {
+        color: red;
+        font-size: 2rem;
+      }
+    </style>
+
+    <style>
+      .menu {
+        list-style-type: none;
+      }
+
+      .menu li::before {
+        font: var(--fa-font-solid);
+        content: "\f5e4";
+        font-size: 1rem;
+        margin-right: 10px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#" class="menu-item"
+      ><i class="fa-brands fa-7x fa-twitter fa-rotate-90"></i> Twitter</a
+    >
+
+    <ul>
+      <li>
+        <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-solid fa-circle-info"></i> About</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-solid fa-square-rss"></i> Blog</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-regular fa-address-book"></i> Contact</a>
+      </li>
+    </ul>
+
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </body>
+</html>
