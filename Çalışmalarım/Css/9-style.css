@@ -1,0 +1,53 @@
+:root{
+    --color1: rgb(194, 130, 12);
+    --color2: #efefef;
+    --color3: rgb(241, 171, 42);
+    --color4: rgb(35, 121, 233);
+    --color5: black;
+}
+
+body{
+   font-family: 'Nunito', sans-serif; 
+}
+
+div.menu-bar ul{
+    padding: 10px;
+    text-align: center; 
+    background-color: var(--color1);
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+div.menu-bar ul li{
+    display: inline-block;
+    margin-right: 1px;
+}
+
+div.menu-bar ul a{
+    text-decoration: none;
+    color: var(--color2);
+}
+
+div.menu-bar ul li::after{
+    content: "|";
+    padding: 6px;  
+    color: var(--color3);
+}
+
+div.menu-bar ul li:last-child::after{
+    content: ">";
+    padding: 20px;
+    color: var(--color5);
+}
+
+div.menu-bar ul li:first-child::before{
+    content: "<";
+    padding: 20px;
+    color: var(--color5);
+}
+
+div.menu-bar ul a:hover{
+    color: var(--color4);
+}
+
+

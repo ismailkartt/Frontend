@@ -1,0 +1,34 @@
+:root{
+    --color1: #FF0069;
+    --color2: #EAF6F6;
+}
+
+nav.menu{
+    text-align: center;
+}
+
+nav.menu button{
+    margin: 5px 20px;
+    background-color: var(--color1);
+}
+
+nav.menu button a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--color2);
+}
+
+nav.menu button:first-child::before{
+    content: '✅';
+}
+
+nav.menu button:nth-child(2)::before{
+    content: '🎖️';
+}
+
+nav.menu button:last-child::before{
+    content: '😃';
+}
+
+

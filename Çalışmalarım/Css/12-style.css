@@ -1,0 +1,26 @@
+
+nav.menu ul{
+    margin: 0;
+    padding: 15px;
+    list-style-type: none;
+    background-color: aquamarine;
+    display: none;
+}
+
+nav.menu button{
+    display: block;
+}
+
+nav.menu:hover ul{
+    display: inline-block;
+    background-color: rgb(163, 192, 70);
+}
+
+nav.menu a{
+    text-decoration: none;
+    color: bisque;
+}
+
+
+
+

@@ -1,0 +1,29 @@
+:root{
+    --color1: rgb(41, 40, 40);
+    --color2: rgb(191, 187, 187);
+}
+
+nav.menu ul{
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav.menu ul a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color1);
+    background-color: var(--color2);
+    padding: 10px 15px;
+}
+
+nav.menu ul a:hover{
+    background-color: var(--color1);
+    color: var(--color2);
+}
+

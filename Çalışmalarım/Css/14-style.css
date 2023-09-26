@@ -1,0 +1,100 @@
+:root{
+    --color1: #ececec;
+    --color2: #555555;
+    --color3: #efefef;
+    --color4: #cccccc;
+    --color5: #20266c;
+    --color6: #8f96e2;
+}
+
+
+
+nav.menu-bar .menu tbody td:last-child::before{
+    font: var(--fa-font-solid);
+    content: "\f291";
+    margin-right: 10px;
+}
+
+nav.menu-bar .menu tbody td:last-child::after{
+    font: var(--fa-font-solid);
+    content: "\f2ed";
+}
+
+
+nav.menu-bar div.button{
+    text-align: right;
+    margin-top: 20px;
+}
+
+nav.menu-bar div.button button{
+    background-color: var(--color6);
+    padding: 10px 15px;
+    border: none;
+    color: var(--color1);
+    cursor: pointer;
+}
+
+nav.menu-bar div.button button:hover{
+    background-color: var(--color4);
+    color: var(--color5);
+}
+
+nav.menu-bar div.button button:first-child::before{
+    font: var(--fa-font-solid);
+    content: "\f07a";
+    margin-right: 5px;
+}
+
+nav.menu-bar div.button button:last-child::before{
+    font: var(--fa-font-solid);
+    content: "\f09d";
+    margin-right: 5px;
+}
+
+
+nav.menu-bar{
+    display: inline-block;
+}
+
+nav.menu-bar table{
+    background-color: var(--color1);
+}
+
+nav.menu-bar table th{
+    background-color: var(--color2);
+    color: var(--color3);
+}
+
+nav.menu-bar table tbody tr:nth-child(odd){
+    background-color: var(--color4);
+}
+
+nav.menu-bar table tbody tr:hover{
+    background-color: var(--color5);
+    color: var(--color3);
+    cursor: pointer;
+}
+
+
+nav.menu-bar table th:nth-child(3),
+nav.menu-bar table td:nth-child(3){
+    text-align: center;
+}
+
+nav.menu-bar table tfoot th,
+nav.menu-bar table th:nth-child(3) ~ th,
+nav.menu-bar table td:nth-child(3) ~ td{
+    text-align: right;
+}
+
+nav.menu-bar th,
+nav.menu-bar td{
+    padding: 10px 15px;
+    text-align: left;
+}
+
+
+ 
+    
+
+
