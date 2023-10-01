@@ -1,0 +1,12 @@
+.paragraf{
+    font-size: 40px;
+    font-size: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    letter-spacing: 10px;
+    background-color: aqua;
+    text-align: center;
+}

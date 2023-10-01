@@ -1,0 +1,15 @@
+button{
+    background-color: #04AA6D;
+    border: none;
+    color: yellow;
+    width: 100px;
+}
+
+button:hover{
+    color: white;
+    background-color: red;
+    width: 500px;
+    transition: all 2s;
+    /* box-shadow: right bottom all color; */
+    box-shadow: 10px 10px 5px red;
+}
