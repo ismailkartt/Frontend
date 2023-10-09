@@ -1,0 +1,59 @@
+
+body{
+    background-image: url("/assets/img/Background-repeat.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.menu .header{
+    
+    text-align: center;
+    color: blue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(230, 194, 140);
+}
+
+.menu .header a{
+    text-decoration: none;
+    margin-right: 50px;
+    color: black;
+}
+
+.menu .header a:hover{
+    color: red;
+}
+
+.menu .text , .menu .footer{
+    width: 40%;
+    background-color: bisque;
+}
+
+.menu .text h2,.menu .footer h2{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.menu .text p{
+    text-align: center;
+}
+
+
+.menu .footer li{
+    padding: .5rem; 
+}
+
+.menu .footer li{
+    list-style: none;
+}
+
+.menu .footer li::before{
+    content: '❤️';
+
+}
+
+
+

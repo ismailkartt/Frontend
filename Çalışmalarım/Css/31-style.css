@@ -1,0 +1,25 @@
+
+
+.search{
+    display: inline-block;
+    position: relative;
+    border-radius: 30px;
+}
+
+.search input{
+    background: none;
+    outline: 0;
+    border: 0;
+    background-color: #efefef;
+    border-radius: 30px;
+}
+
+.search button{
+    right: 1px;
+    bottom: 1px;
+    top: 1px;
+    position: absolute;
+    border: none;
+    border-radius: 30px;
+}
+

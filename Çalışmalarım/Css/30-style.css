@@ -1,0 +1,28 @@
+
+.input-group{
+    background-color: rgb(96, 88, 88);
+    display: inline-block;
+    border-radius: 30px;
+    position: relative;
+    padding: 5px;
+}
+
+.input-group input{
+    outline: 0;
+    border: 0;
+    background: none;
+    color: white;
+}
+
+.input-group button{
+    background-image: linear-gradient(45deg, aqua,rgb(7, 123, 123));
+    position: absolute;
+    border-radius: 30px;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+}
+
+.input-group button:hover{
+    background-image: linear-gradient(90deg, aqua,rgb(7, 123, 123));
+}

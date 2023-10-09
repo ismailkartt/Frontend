@@ -1,0 +1,55 @@
+:root{
+    --color1: #FF8080;
+    --color2: #FFCF96;
+    --color3: #F6FDC3;
+    --color4: #CDFAD5;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+.menu{
+    border: 1px solid red;
+    display: inline-block;
+    transition: transform 3s;
+}
+
+.menu .title{
+    margin: 0;
+    background: var(--color1);
+    color: var(--color3);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.menu .title:hover{
+    transform:rotate(30deg); 
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px;
+    line-height: 30px;
+    background-color: var(--color2);
+    display: none;
+    transition:transform  1s;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: var(--color1); 
+}
+
+
+
+.menu .title:hover + ul{
+    display: inline-block;
+}
+
+

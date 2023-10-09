@@ -1,0 +1,72 @@
+
+
+.content{
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.content .card3 span img,
+.content .card2 span img,
+.content .card1 span img{
+    width: 500px;
+    height: auto;
+}
+
+
+.content .card1{
+    border: 5px solid red;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.content .card3 img,
+.content .card2 img,
+.content .card1 img{
+    padding-top: 30px;
+}
+
+.content .card2{
+    border: 5px solid red;
+    margin-right: 20px;
+}
+
+.content .card3{
+    border: 5px solid red;
+    margin-right: 10px;
+}
+
+.content .card3 h3,
+.content .card2 h3,
+.content .card1 h3{
+    font-size: 24px;
+}
+
+.content .card3 p,
+.content .card2 p,
+.content .card1 p{
+    font-size: 18px;
+}
+
+.content .card3 .footer3 p,
+.content .card2 .footer2 p,
+.content .card1 .footer1 p{
+    color: rgb(161, 93, 104);
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.content .card3 .footer3 button,
+.content .card2 .footer2 button,
+.content .card1 .footer1 button{
+    color: white;
+    background-color: rgb(62, 2, 2);
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+
+

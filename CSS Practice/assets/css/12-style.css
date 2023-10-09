@@ -1,0 +1,26 @@
+
+nav.menu{
+    text-align: center;
+}
+
+nav.menu li{
+    display: inline-block;
+}
+
+nav.menu li a{
+    text-decoration: none;
+    color: brown;
+    background-color: aqua;
+    padding: 15px;
+    margin-right: 1rem;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+footer div ul{
+    list-style-type: none;
+}
+
+footer div ul li{
+    margin-bottom: 10px;
+}

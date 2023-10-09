@@ -1,0 +1,39 @@
+body{
+    background-color: #f0f8ff;
+    padding: 1rem;
+}
+
+section.container{
+    text-align: center;
+} 
+
+section.container>div{
+    border: 10px solid #005953;
+    width: 25%;
+    display: inline-block;
+    margin-right: 1rem;
+    padding: 1rem;
+} 
+
+
+section.container div span{
+    color: #e3b49b;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+section.container div a:hover,
+section.container div span:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+section.container div a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(57, 47, 46);
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+

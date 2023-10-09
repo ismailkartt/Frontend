@@ -1,0 +1,68 @@
+
+body{
+    background-color: #8fbc8f;
+    font-family: 'Poppins',sans-serif;
+}
+
+section.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    text-align: center;
+    border: 1px solid black;
+    width: 20%;
+}
+
+.box .liste{
+   list-style-type: none;
+   padding: 0;
+   margin: 0; 
+}
+
+.box .liste:hover{
+    box-shadow: 0 5px 10px 0 #A4199A;
+ }
+
+.box .liste .header{
+    background-color: #1d1357;
+    color: white;
+    font-size: 2.2rem;
+}
+
+.liste li{
+    background-color: white;
+    padding: 0.8rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+
+.liste li.aylik{
+    font-size: 1.9rem;
+}
+
+.liste li .buton{
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: linear-gradient(45deg,#591A7E,#A4199A,#CCB3BC,#685783);
+    display: inline-block;
+    padding: 5px;
+}
+
+.liste li .buton:hover{
+    color: rgb(2,40,27);
+    opacity: 0.5;
+}
+
+
+
+
+
+

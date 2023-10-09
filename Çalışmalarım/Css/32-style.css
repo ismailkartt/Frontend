@@ -1,0 +1,27 @@
+
+
+.search{
+    position: relative;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.search input{
+    outline: none;
+    border: 0;
+    outline: 0;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 6px; 
+}
+
+.search span i{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    background: none;
+    margin: 3px;
+}
+
+

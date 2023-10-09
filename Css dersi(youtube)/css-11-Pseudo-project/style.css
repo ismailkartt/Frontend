@@ -1,0 +1,50 @@
+
+.links a:link{
+    color: turquoise;
+}
+
+.links a:visited{
+    color: red;
+}
+
+.links a:hover{
+    color: blueviolet;
+}
+
+.links a:active{
+    color: blue;
+}
+
+.show-button button{
+    display: none;
+}
+
+.show-button:hover{
+    color: red;
+}
+
+.show-button:hover button{
+    display: inline-block;
+}
+
+.pseudo p:first-child{
+    color: rgb(0, 187, 255);
+}
+
+.pseudo p:last-child::first-letter{
+    color: red;
+    font-size: 30px
+}
+
+.pseudo p::first-line{
+    background-color: aquamarine;
+}
+
+.pseudo p:last-child::before{
+    content: "***";
+}
+
+.pseudo p::selection{
+    color: red;
+    background-color: black;
+}

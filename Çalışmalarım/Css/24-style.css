@@ -1,0 +1,29 @@
+.content .footer ul li:nth-child(1)::before{
+    font: var(--fa-font-solid);
+    content: "\f0e0";
+    margin-right: 10px;
+}
+
+.content .footer ul li:nth-child(2)::before{
+    font: var(--fa-font-solid);
+    content: "\f095";
+    margin-right: 10px;
+}
+
+.content .footer ul li:nth-child(3)::before{
+    font: var(--fa-font-solid);
+    content: "\f232";
+    margin-right: 10px;
+}
+
+.content .footer ul li:nth-child(4)::before{
+    font: var(--fa-font-solid);
+    content: "\f09a";
+    margin-right: 10px;
+}
+
+.content .footer ul li:nth-child(5)::before{
+    font: var(--fa-font-solid);
+    content: "\e07b";
+    margin-right: 10px;
+}

@@ -1,0 +1,35 @@
+
+:root{
+    --color1: red;
+    --color2: blue;
+    --color3: gray;
+    --color4: #efefef;
+}
+
+body{
+    padding: 20px;
+}
+
+.section .header{
+    border: 1px solid var(--color3);
+    border-radius: 5px;
+}
+
+.section .header .lines{
+   background-color: var(--color1);
+   border-radius: 5px 5px 0 0;
+}
+
+.section .header .lines span{
+    background-color: var(--color2);
+    height: 10px;
+    width: 25%;
+    display: block;
+    border-radius: 5px 5px 0 0;
+}
+
+.section .content{
+    display: inline-block;
+}
+
+

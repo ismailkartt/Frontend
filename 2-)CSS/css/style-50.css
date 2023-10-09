@@ -1,0 +1,22 @@
+/* position özelliği ne amaçla kullanılır 
+   herhangi bir elemanı konumlandırmak için top,left,right,bottom
+   değerlerini kullanmak istiyorsak position değeri verilir.Fixed ve sticky
+   menü kullanımlarında herhangi bir elemanı bir yere sabitlemek istediğimizde
+   scrol ettiğimizde posizyonunu kaybetsini istemiyorsak bunlar için kullanabiliyoruz
+   z-index ne işe yarar ? position değeri almış elemanlarının hangisinin üste hangisinin
+   alta geleceğini belirlemek için kullanılır */
+nav.menu{
+    background-color: aqua;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+table.price-list thead{
+    position: sticky;
+    top: 10px;
+    background-color: antiquewhite;
+}
+

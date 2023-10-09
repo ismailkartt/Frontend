@@ -1,0 +1,36 @@
+
+
+.home-page{
+
+}
+
+.home-page .head{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
+
+.home-page .head span{
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.home-page .menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    position: sticky;
+    
+}
+
+.home-page .menu ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.home-page .menu ul a{
+    text-decoration: none;
+    color: white;
+}
+
